@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sanskrit Language Processing</title>
+<link rel="stylesheet" type="text/css" href="css/keytest.css">
+	<script	src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+ 
+	<script src="js/branah.js"></script>
+
+<script type="text/javascript" src="js/keytest.js"></script>
+
+<link rel="stylesheet" href="css/branah.css">
+
+
+
+
+</head>
+
+<body onload="onloadFunction()">
+<h1 id="head">
+Vakya Yantra - Sanskrit Processing
+</h1>
+
+<div id="page">
+
+
+<!-- <div id="searchDiv">
+<input id="searchWordInDictionary" type = "text">
+
+<button id="searchWord" onclick="">search</button>
+ List to be populated when search button is pressed or when 3 or more letters are entered by user
+</div> -->
+
+<div id="inputTextDiv">
+
+
+<textarea id ="inputTextArea" rows="11" cols="80" placeholder="User Input Area"></textarea>
+<br>
+<br>
+<button id="clearArea" onclick="clearTextArea()">clear</button>
+<!-- <button id="showVirtualKB" onclick="showVirtualKB()">Virtual Keyboard</button> -->
+</div>
+
+<div id="virtualKBDiv" >
+
+<!--  give link to virtual keyboard here. Default closed. On button action, show the keyboard-->
+ </div>
+
+<div id="arthaDiv">
+<!-- Place an image here and give image an action of clicking--> 
+<input id="showArthaButton" type="image" src="images/artha.png" onclick="showArtha()">
+ <!-- <button id="showArthaButton" onclick="showArtha()">Artha</button> -->
+ <br>
+<textarea id="showArthaArea" rows="15" cols="25"></textarea>
+</div>
+
+<div id="samanarthaDiv">
+<!-- Place an image here and give image an action of clicking-->
+<input id="showSamanArthaButton" type="image" src="images/samanartha.png" onclick="showSamanartha()"> 
+ <!-- <button id="showSamanArthaButton" onclick="showSamanartha()">Samanartha</button> -->
+  <br>
+<textarea id="showSamanArthaArea" rows="15" cols="25"></textarea>
+</div>
+
+<div id="sandhiJoinDiv">
+<!-- Place an image here and give image an action of clicking-->
+<input id="showSandhiJoinButton" type="image" src="images/sandhijoin.png" onclick="showSandhiJoin()"> 
+ <!-- <button id="showSandhiJoinButton" onclick="showSandhiJoin()">Sandhi-join</button> -->
+  <br>
+<textarea id="showSandhiJoinArea" rows="15" cols="25"></textarea>
+</div>
+
+<div id="sandhiVigrahaDiv">
+<!-- Place an image here and give image an action of clicking-->
+<input id="showSandhiVigrahaButton" type="image" src="images/sandhivigraha.png" onclick="showSandhiVigraha()"> 
+ <!-- <button id="showSandhiVigrahaButton" onclick="showSandhiVigraha()">Sandhi-Vigraha</button> -->
+  <br>
+<textarea id="showSandhiVigrahaArea" rows="15" cols="25"></textarea>
+</div>
+
+<div id="samasaDiv">
+<!-- Place an image here and give image an action of clicking-->
+<input id="showSamasaButton" type="image" src="images/samasa.png" onclick="showSamasa()"> 
+ <!-- <button id="showSamasaButton" onclick="showSamasa()">Samasa</button> -->
+  <br>
+<textarea id="showSamasaArea" rows="15" cols="25"></textarea>
+</div>
+
+<div id="vruttaDiv">
+<!-- Place an image here and give image an action of clicking-->
+<input id="showVruttaButton" type="image" src="images/Vrutta.png" onclick="showVrutta()"> 
+ <!-- <button id="showVruttaButton" onclick="showVrutta()">Vrutta</button> -->
+  <br>
+<textarea id="showVruttaArea" rows="15" cols="25"></textarea>
+</div>
+
+</div>
+</body>
+</html>

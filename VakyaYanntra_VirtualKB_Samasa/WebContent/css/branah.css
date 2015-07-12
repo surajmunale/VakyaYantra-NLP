@@ -1,0 +1,258 @@
+﻿#branah-keyboard {
+	width: 630px;
+	line-height: 20px;
+	font-size: 1em;
+}
+
+.branah-key,#branah-backspace,#branah-tab,#branah-k25,#branah-caps-lock,#branah-enter,#branah-left-shift,#branah-right-shift,#branah-space,#branah-left-ctrl,#branah-right-ctrl,#branah-left-alt,#branah-right-alt,#branah,#branah-escape,#branah-transliterate
+	{
+	float: left;
+	display: block;
+	margin: 1px;
+	height: 3em;
+	line-height: 2.75em;
+	text-align: center;
+	color: gray;
+}
+
+.branah-key {
+	width: 40px;
+}
+
+#branah-backspace {
+	width: 78px;
+}
+
+#branah-output {
+	float: left;
+	display: block;
+	margin: 1px;
+	height: 2em;
+	line-height: 1.75em;
+	text-align: center;
+	color: blue;
+	width: 120px;
+}
+
+input.button_add {
+    background-image: url(images/audio1.jpg); /* 16px x 16px */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 16px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+}
+
+#audio-image {
+	float: left;
+	display: block;
+	margin: 1px;
+	height: 2em;
+	line-height: 1.75em;
+	text-align: center;
+	width: 20px;
+}
+
+#branah-tab {
+	width: 62px;
+}
+
+#branah-k25 {
+	width: 56px;
+}
+
+#branah-caps-lock {
+	width: 76px;
+}
+
+#branah-enter {
+	width: 84px;
+}
+
+#branah-left-shift {
+	width: 46px;
+}
+
+#branah-right-shift {
+	width: 114px;
+}
+
+#branah-space {
+	width: 246px;
+	text-align: center;
+}
+
+#branah-right-ctrl,#branah-right-alt,#branah-escape {
+	width: 62px;
+}
+
+
+#branah-transliterate {
+	width: 120px;
+}
+
+#branah-left-ctrl,#branah-left-alt,#branah {
+	width: 60px;
+}
+
+
+.branah-label-reference {
+	color: gray;
+	font-size: .9em;
+	line-height: 12px;
+	text-align: left;
+	cursor: default;
+}
+
+.branah-label-natural {
+	margin-top: -5px;
+	color: #e0115f;
+	font-size: 1.5em;
+	line-height: 20px;
+	text-align: center;
+	cursor: default;
+}
+
+.branah-label-shift {
+	margin-top: -5px;
+	color: #057cb5;
+	font-size: 1.5em;
+	line-height: 20px;
+	text-align: center;
+	cursor: default;
+}
+
+#branah-k29 .branah-label-reference,#branah-k32 .branah-label-reference
+	{
+	color: #000;
+}
+
+.branah-recessed span {
+	color: #3C0;
+}
+
+.branah-clear {
+	clear: both;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	font-size: 87.5%;
+	line-height: 24px;
+	color: #464646;
+}
+
+a:link,a:visited,a:active {
+	color: #005a9c;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+p {
+	margin: .75em 0;
+	text-align: justify;
+}
+
+h1 {
+	font-size: 1.2857em;
+	margin: .75em 0;
+	color: #057cb5;
+}
+
+h3 {
+	font-size: 1em;
+	margin: .75em 0;
+	color: #057cb5;
+}
+
+h4 {
+	text-align: left;
+}
+
+img {
+	border: 0;
+}
+
+td {
+	vertical-align: bottom;
+}
+
+rb {
+	color: #057cb5;
+	font-size: 100%;
+	margin-left: .5em;
+}
+
+rt {
+	color: #e0115f;
+	font-size: 100%;
+}
+
+#page {
+	width: 840px;
+	margin: 10px 20px;
+}
+
+#header {
+	margin-bottom: 1em;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+.middle {
+	vertical-align: middle;
+}
+
+.top {
+	vertical-align: top;
+}
+
+.menu {
+	list-style: none;
+	padding-top: 1em;
+}
+
+.menuitem {
+	display: inline;
+	padding: 0;
+	margin: 0 0 0 1em;
+}
+
+.activemenuitem a {
+	border-bottom: 1px solid #3C0;
+}
+
+.main_content {
+	padding-left: 1px;
+}
+
+.output_content {
+	padding-left: 10px;
+	vertical-align: bottom;
+}
+#action {
+	text-align: left;
+}
+
+
+#editor {
+	width: 620px;
+}

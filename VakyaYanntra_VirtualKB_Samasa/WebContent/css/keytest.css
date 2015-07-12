@@ -1,0 +1,208 @@
+@CHARSET "ISO-8859-1";
+
+#head{
+	
+	text-align: center;
+	font-size-adjust: inherit;
+	color: #3104CC;
+}
+
+#inputTextArea{
+	
+	box-shadow: 0px 0px 10px #888888;
+	
+}
+
+#searchDiv{
+	position:	absolute;
+	margin-left: 0%;
+	margin-top: 1%;
+	height: 300pt;
+	width: 13%;
+	background: #3104CC;
+	box-shadow: 10px 10px 5px #888888;
+	
+	
+}
+
+#searchWordInDictionary{
+	
+	position: relative;
+	height: 15pt;
+	width: 130pt;
+	border: 1px solid;
+    border-radius: 25px;
+    margin-left: 3pt;
+    margin-top: 10pt;
+	
+}
+
+#inputTextDiv{
+	position : absolute;
+	margin-left: 0%;
+	margin-top: 6%;
+	
+		
+}
+
+#clearArea{
+
+	position: relative;
+	height: 40pt;
+	width: 100pt;
+	font-size: 15pt;
+	
+	
+}
+
+#inputTextArea{
+	
+	position: relative;
+	margin-left: 0pt;
+    margin-top: 0pt;
+}
+
+#showVirtualKB{
+	
+	position: relative;
+}
+
+
+
+#virtualKBDiv{
+	
+	position: absolute;
+	margin-left: 45%;
+	margin-top: 6%;
+	box-shadow: 10px 10px 5px #888888;
+	
+}
+
+#arthaDiv{
+	position:	absolute;
+	margin-left: 0%;
+	margin-top: 26%;
+	height: 135pt;
+	width: 15%;
+	
+}
+
+#showArthaButton{
+	position: relative;
+	
+}
+
+#showArthaArea{
+	
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+}
+
+#samanarthaDiv{
+	position:	absolute;
+	margin-left: 17%;
+	margin-top: 26%;
+	height: 100pt;
+	width: 13%;
+	
+}
+
+#showSamanArthaButton{
+	position: relative;
+	
+}
+
+#showSamanArthaArea{
+	
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+}
+
+#sandhiJoinDiv{
+	position:	absolute;
+	margin-left: 33%;
+	margin-top: 26%;
+	height: 100pt;
+	width: 13%;
+	
+}
+
+#showSandhiJoinButton{
+	
+	position: relative;
+}
+
+#showSandhiJoinArea{
+	
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+}
+
+#sandhiVigrahaDiv{
+	position:	absolute;
+	margin-left: 49%;
+	margin-top: 26%;
+	height: 100pt;
+	width: 13%;
+	
+}
+
+#showSandhiVigrahaButton{
+	position: relative;
+	
+}
+#showSandhiVigrahaArea{
+	
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+	
+}
+
+#samasaDiv{
+	position:	absolute;
+	margin-left: 65%;
+	margin-top: 26%;
+	height: 100pt;
+	width: 13%;
+	
+	
+}
+#showSamasaButton{
+	position: relative;
+	
+}
+#showSamasaArea{
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+	
+}
+#vruttaDiv{
+	
+	position:	absolute;
+	margin-left: 81%;
+	margin-top: 26%;
+	height: 100pt;
+	width: 13%;
+}
+#showVruttaButton{
+	
+	position: relative;
+}
+
+#showVruttaArea{
+	
+	position: relative;
+	margin-left: 0pt;
+	margin-top: 0pt;
+	visibility: hidden;
+}

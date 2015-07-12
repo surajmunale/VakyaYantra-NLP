@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ajaxdemo</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <servlet-name>GetTransliterate</servlet-name>
+    <servlet-class>transliteration.GetTransliterateServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetTransliterate</servlet-name>
+    <url-pattern>/get-transliterate</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetSamasa</servlet-name>
+    <servlet-class>Samasa.samasaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSamasa</servlet-name>
+    <url-pattern>/get-samasa</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetSandhiViched</servlet-name>
+    <servlet-class>Sandhis.SandhiVichedServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSandhiViched</servlet-name>
+    <url-pattern>/get-sandhiviched</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetSandhiJoin</servlet-name>
+    <servlet-class>SandhiJoin.SandhiJoinServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSandhiJoin</servlet-name>
+    <url-pattern>/get-sandhi-join</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetVrutta</servlet-name>
+    <servlet-class>Vruttas.VruttaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetVrutta</servlet-name>
+    <url-pattern>/get-vrutta</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetAudio</servlet-name>
+    <servlet-class>TextToUnicode</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetAudio</servlet-name>
+    <url-pattern>/get-audio</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>GetArtha</servlet-name>
+    <servlet-class>ArthaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetArtha</servlet-name>
+    <url-pattern>/get-artha</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>GetSamanartha</servlet-name>
+    <servlet-class>samanarthaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetSamanartha</servlet-name>
+    <url-pattern>/get-samanartha</url-pattern>
+  </servlet-mapping>
+  
+  
+    <servlet>
+    <servlet-name>GetLinga</servlet-name>
+    <servlet-class>LingaServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetLinga</servlet-name>
+    <url-pattern>/get-linga</url-pattern>
+  </servlet-mapping>
+  
+  
+</web-app>
